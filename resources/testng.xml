@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestNg Test" verbose="1">
+	<test name="TestNg Test">
+		<groups>
+			<run>
+				<include name="Group2" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.testng.demo.SetupClass" />
+			<class name="com.testng.demo.TestNgClass1" />
+			<class name="com.testng.demo.TestNgClass2" />
+		</classes>
+	</test>
+</suite>

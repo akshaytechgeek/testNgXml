@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestNg Test" duration-ms="25" started-at="2015-08-16T06:17:27Z" finished-at="2015-08-16T06:17:27Z">
+    <groups>
+      <group name="Group2">
+        <method signature="TestNgClass1.testClass1Method2()[pri:0, instance:com.testng.demo.TestNgClass1@75ea2543]" name="testClass1Method2" class="com.testng.demo.TestNgClass1"/>
+        <method signature="TestNgClass2.testClass2Method2()[pri:0, instance:com.testng.demo.TestNgClass2@608069b9]" name="testClass2Method2" class="com.testng.demo.TestNgClass2"/>
+      </group> <!-- Group2 -->
+    </groups>
+    <test name="TestNg Test" duration-ms="25" started-at="2015-08-16T06:17:27Z" finished-at="2015-08-16T06:17:27Z">
+      <class name="com.testng.demo.TestNgClass2">
+        <test-method status="PASS" signature="testClass2Method2()[pri:0, instance:com.testng.demo.TestNgClass2@608069b9]" name="testClass2Method2" duration-ms="0" started-at="2015-08-16T11:47:27Z" finished-at="2015-08-16T11:47:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClass2Method2 -->
+      </class> <!-- com.testng.demo.TestNgClass2 -->
+      <class name="com.testng.demo.SetupClass">
+        <test-method status="PASS" signature="beforeSuiteMethod()[pri:0, instance:com.testng.demo.SetupClass@3db6fb5d]" name="beforeSuiteMethod" is-config="true" duration-ms="10" started-at="2015-08-16T11:47:27Z" finished-at="2015-08-16T11:47:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuiteMethod -->
+        <test-method status="PASS" signature="afterSuiteMethod()[pri:0, instance:com.testng.demo.SetupClass@3db6fb5d]" name="afterSuiteMethod" is-config="true" duration-ms="0" started-at="2015-08-16T11:47:27Z" finished-at="2015-08-16T11:47:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuiteMethod -->
+      </class> <!-- com.testng.demo.SetupClass -->
+      <class name="com.testng.demo.TestNgClass1">
+        <test-method status="PASS" signature="testClass1Method2()[pri:0, instance:com.testng.demo.TestNgClass1@75ea2543]" name="testClass1Method2" duration-ms="10" started-at="2015-08-16T11:47:27Z" finished-at="2015-08-16T11:47:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClass1Method2 -->
+      </class> <!-- com.testng.demo.TestNgClass1 -->
+    </test> <!-- TestNg Test -->
+  </suite> <!-- TestNg Test -->
+</testng-results>
